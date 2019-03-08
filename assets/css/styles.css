@@ -259,3 +259,15 @@ hr .blue {
   line-height: 1.5;
 }
 
+@media (min-width: 992px) {
+  .testimonials-clean .intro {
+    max-width: 775px!important;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-12.text-center {
+    max-width: 775px;
+  }
+}
+

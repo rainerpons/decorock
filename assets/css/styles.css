@@ -280,7 +280,7 @@ hr .blue {
 
 @media (min-width: 300px) {
   .featured-image {
-    max-width: 323px;
+    width: 100%;
   }
 }
 

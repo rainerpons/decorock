@@ -4,17 +4,19 @@
 
 #mainNav .navbar-brand {
   font-size: 28px;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Montserrat', sans-serif;
   color: #1b346e;
   font-weight: bold;
+  margin-top: -4px;
+  margin-bottom: -4px;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #142752;
 }
 
-.text-primary {
-  color: #fed136!important;
+#features .text-primary {
+  filter: drop-shadow(5px 5px 3px #aaa);
 }
 
 #products .portfolio-item .portfolio-link .portfolio-hover {
@@ -345,19 +347,6 @@ hr .blue {
   margin-right: 8px;
 }
 
-#contact-info {
-  padding-top: 15px;
-  padding-bottom: 5px;
-  max-width: 220px;
-  margin: auto;
-}
-
-#contact-info div {
-  padding-top: 15px;
-  padding-bottom: 5px;
-  text-align: left;
-}
-
 .testimonials-clean p {
   color: #7d8285;
 }
@@ -434,5 +423,59 @@ hr .blue {
   border: 15px solid transparent;
   border-width: 12px 15px;
   border-top-color: #fff;
+}
+
+#features .fa-inverse {
+  filter: drop-shadow(2px 2px 2px #aaa);
+}
+
+#contact-info h3 {
+  font-size: 18px;
+  margin-left: 26px;
+  margin-bottom: 4px;
+  color: rgb(27, 52, 110);
+}
+
+#contact-info p {
+  font-size: 14px;
+  color: rgb(112, 128, 144);
+  margin-left: 26px;
+}
+
+#contact-info div {
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+@media (min-width: 300px) {
+  #contact-info div {
+    max-width: 268px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  #contact-info div {
+    max-width: 502px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#contact-info i {
+  position: absolute;
+  font-size: 20px;
+  color: rgb(100, 115, 130);
+}
+
+@media (min-width: 768px) {
+  #contact-info {
+    margin-bottom: 0px!important;
+  }
+}
+
+#contact-info {
+  margin-bottom: 50px;
 }
 

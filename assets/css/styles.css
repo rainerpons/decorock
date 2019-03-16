@@ -59,7 +59,7 @@ a:hover {
 }
 
 .footer {
-  padding: 35px 0px 15px;
+  padding: 45px 0px 15px;
   color: #f0f9ff;
   background-color: #2d3339;
 }
@@ -156,7 +156,6 @@ header.masthead {
   background-position: top;
   background-size: cover;
   background-image: url("../../assets/img/bg-veneers.jpg");
-  /*background-image: url("../../assets/img/black-block.jpg");*/
 }
 
 .text-center {
@@ -336,8 +335,14 @@ hr .blue {
   margin-bottom: 16px;
 }
 
-.modal-description p {
+.modal-description p:nth-child(2) {
   margin-bottom: 0px;
+  color: rgb(112, 128, 144);
+}
+
+.modal-description p:nth-child(1) {
+  margin-bottom: 0px;
+  color: rgb(0, 0, 0);
 }
 
 .modal-availability p {
@@ -551,5 +556,14 @@ section h2.section-heading-light {
 #products a i {
   margin-right: 8px;
   color: rgb(255, 255, 255);
+}
+
+#portfolio {
+  padding: 75px 0px 35px;
+  background-color: rgb(240, 242, 244)!important;
+}
+
+#categories {
+  padding: 75px 0px 35px;
 }
 

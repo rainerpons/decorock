@@ -203,7 +203,7 @@ a {
   font-size: 15px;
   font-style: normal;
   font-family: 'Roboto Slab',sans-serif;
-  margin: 0;
+  margin: 0px 0px 14px;
   line-height: 22px;
 }
 
@@ -559,11 +559,43 @@ section h2.section-heading-light {
 }
 
 #portfolio {
-  padding: 75px 0px 35px;
+  padding: 75px 0px 25px;
   background-color: rgb(240, 242, 244)!important;
 }
 
 #categories {
   padding: 75px 0px 35px;
+}
+
+.portfolio-caption h3 {
+  margin-bottom: 7px;
+  color: rgb(27, 52, 110);
+}
+
+.portfolio-caption .fa-long-arrow-right {
+  color: rgb(27, 52, 110);
+  margin-left: 7px;
+}
+
+.portfolio-caption .fa-phone {
+  margin-right: 8px;
+  color: rgb(255, 255, 255);
+}
+
+.btn-l {
+  font-size: 18px;
+  padding: 15px 30px;
+}
+
+#portfolio .btn-group a:nth-child(1) {
+  margin-right: 5px;
+}
+
+#portfolio .btn-group a:nth-child(2) {
+  margin-left: 5px;
+}
+
+#portfolio .btn-group a {
+  padding: 15px 30px;
 }
 

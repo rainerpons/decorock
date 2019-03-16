@@ -1,11 +1,11 @@
-.footer-dark h3 {
+.footer h3 {
   margin-top: 0;
   margin-bottom: 12px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
 }
 
-.footer-dark ul {
+.footer ul {
   padding: 0;
   list-style: none;
   line-height: 1.6;
@@ -13,50 +13,45 @@
   margin-bottom: 0;
 }
 
-.footer-dark ul a {
+.footer ul a {
   color: inherit;
   text-decoration: none;
   opacity: 0.6;
 }
 
-.footer-dark ul a:hover {
+.footer ul a:hover {
   opacity: 0.8;
 }
 
 @media (max-width:767px) {
-  .footer-dark .item:not(.social) {
+  .footer .item:not(.social) {
     text-align: center;
     padding-bottom: 20px;
   }
 }
 
-.footer-dark .item.text {
-  margin-bottom: 36px;
+.footer .item.text {
+  margin-bottom: 0px;
 }
 
-@media (max-width:767px) {
-  .footer-dark .item.text {
-    margin-bottom: 0;
-  }
-}
-
-.footer-dark .item.text p {
+.footer .item.text p {
   opacity: 0.6;
   margin-bottom: 0;
+  font-size: 14px;
 }
 
-.footer-dark .item.social {
+.footer .item.social {
   text-align: center;
 }
 
 @media (max-width:991px) {
-  .footer-dark .item.social {
+  .footer .item.social {
     text-align: center;
     margin-top: 20px;
   }
 }
 
-.footer-dark .item.social > a {
+.footer .item.social > a {
   font-size: 20px;
   width: 36px;
   height: 36px;
@@ -70,11 +65,19 @@
   opacity: 0.75;
 }
 
-.footer-dark .copyright {
+.footer .copyright {
   text-align: center;
   padding-top: 24px;
   opacity: 0.3;
   font-size: 13px;
   margin-bottom: 0;
+}
+
+.footer .item:not(.social) {
+  padding: 0px 15px 20px;
+}
+
+.copyright a {
+  color: #f7e142;
 }
 

@@ -221,6 +221,7 @@ a {
   margin-right: 12px;
   margin-top: 0px;
   font-size: 40px;
+  color: rgb(100, 115, 130);
 }
 
 .col-lg-12.text-center {
@@ -349,6 +350,7 @@ hr .blue {
 
 .testimonials-clean p {
   color: #7d8285;
+  font-size: 13px;
 }
 
 .testimonials-clean .item .description {
@@ -360,14 +362,12 @@ hr .blue {
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 25px;
-  padding-top: 40px;
-  color: rgb(27,52,110);
+  color: rgb(27, 52, 110);
 }
 
 @media (max-width:767px) {
   .testimonials-clean h2 {
     margin-bottom: 25px;
-    padding-top: 25px;
     font-size: 40px;
   }
 }
@@ -383,17 +383,11 @@ hr .blue {
 }
 
 .testimonials-clean .people {
-  padding: 50px 0 20px;
+  padding: 0px 0px 20px;
 }
 
 .testimonials-clean .item {
   margin-bottom: 32px;
-}
-
-@media (min-width:768px) {
-  .testimonials-clean .item {
-    height: 220px;
-  }
 }
 
 .testimonials-clean .item .box {
@@ -404,19 +398,20 @@ hr .blue {
 
 .testimonials-clean .item .author {
   margin-top: 28px;
-  padding-left: 25px;
+  padding-left: 10px;
 }
 
 .testimonials-clean .item .name {
   font-weight: bold;
+  font-size: 18px;
   margin-bottom: 2px;
-  color: inherit;
+  color: rgb(27, 52, 110);
 }
 
 .testimonials-clean .item .box:after {
   content: '';
   position: absolute;
-  left: 30px;
+  left: 15px;
   bottom: -24px;
   width: 0;
   height: 0;

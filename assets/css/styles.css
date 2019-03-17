@@ -5,14 +5,14 @@
 #mainNav .navbar-brand {
   font-size: 28px;
   font-family: 'Montserrat', sans-serif;
-  color: #1b346e;
+  color: rgb(27, 52, 110);
   font-weight: bold;
   margin-top: -4px;
   margin-bottom: -4px;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #142752;
+  color: rgb(20, 39, 82);
 }
 
 #features .text-primary {
@@ -145,7 +145,7 @@ section h2.section-heading {
   font-size: 40px;
   margin-top: 0px;
   margin-bottom: 25px;
-  color: rgb(27,52,110);
+  color: rgb(27, 52, 110);
 }
 
 header.masthead {
